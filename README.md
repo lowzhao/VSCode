@@ -1,5 +1,5 @@
 # VSCode
-
+```
 {
 	"files.autoSave": "on",
 	"editor.fontSize": 18,
@@ -46,3 +46,4 @@
 	},
 	"workbench.colorTheme": "Sam Monokai Dark",
 }
+```
