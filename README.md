@@ -1,4 +1,9 @@
 # VSCode
+
+get MONACO font
+
+looks best on Ubuntu
+
 ```
 {
 	"files.autoSave": "on",
