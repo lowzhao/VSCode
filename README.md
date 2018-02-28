@@ -2,7 +2,7 @@
 
 get MONACO font
 
-looks best on Ubuntu
+looks best on Ubuntu & Mac, Windows's user consider using another font
 
 ```
 {
