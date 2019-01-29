@@ -1,3 +1,10 @@
+# VSCode
+
+get MONACO font
+
+looks best on Ubuntu & Mac, Windows's user consider using another font
+
+```
 {
 	"editor.fontSize": 14,
 	// "go.gopath": "~/go",
@@ -132,3 +139,4 @@
 	},
 	"todo-tree.statusBar": "top three",
 }
+```
