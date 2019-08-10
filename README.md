@@ -20,7 +20,7 @@ ls | xargs open
 
 looks best on Ubuntu & Mac, Windows's user consider using another font
 
-```
+```json
 {
 	"editor.fontSize": 14,
 	// "go.gopath": "~/go",
