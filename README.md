@@ -1,6 +1,22 @@
 # VSCode
 
-get MONACO font
+> get MONACO font
+
+> get Operator Mono with Ligatures font
+```bash
+cd ~/Desktop
+git clone https://github.com/coderJianXun/Operator-Mono.git
+git clone https://github.com/kiliman/operator-mono-lig.git
+cd Operator-Mono/src/Operator\ Mono
+for x in `ls`; do mv $x `echo $x| sed 's/-/SSm-/'`; done
+cd ../../../
+mv Operator-Mono/src/Operator\ Mono/* operator-mono-lig/original
+cd operator-mono-lig/
+npm i
+./build.sh
+open build
+ls | xargs open
+```
 
 looks best on Ubuntu & Mac, Windows's user consider using another font
 
@@ -12,7 +28,8 @@ looks best on Ubuntu & Mac, Windows's user consider using another font
 	"editor.wordWrap": "on",
 	"editor.cursorStyle": "line",
 	"editor.detectIndentation": true,
-	"editor.fontFamily": "'Monaco'",
+	"editor.fontFamily": "OperatorMonoSSmLig-Book",
+	"editor.fontLigatures": true,
 	"editor.fontWeight": "bold",
 	"editor.minimap.renderCharacters": false,
 	"editor.mouseWheelZoom": false,
